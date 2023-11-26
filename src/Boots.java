@@ -1,6 +1,6 @@
 public class Boots implements Accessory {
     //stat[0]==damge,stat[1]==sheild
-    private double[] state;
+    private double[] state=new double[2];
     public Boots(double[] state){
         this.state[0]=state[0];
         this.state[1]=state[1];
