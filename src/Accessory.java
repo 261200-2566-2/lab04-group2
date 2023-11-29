@@ -1,4 +1,6 @@
 public interface Accessory {
-    double damage();
-    double shield();
+    int buff();
+    String typeOfBuff();
+    void show();
+    void levelUp();
 }
